@@ -1,2 +1,2 @@
 START http://appadmin:43d54f54300826e944952031df5e7daf@10.74.160.158:8081/view/Weblogic_Windows/job/MS1_JVM_Recycle/buildWithParameters?token=secureToken
-waitfor SomethingThatIsNeverHappening /t 150 >nul 2>&1
+timeout /t 120 /nobreak > NUL
